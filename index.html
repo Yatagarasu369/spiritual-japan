@@ -163,6 +163,30 @@
         button:hover {
             background-color: #b05c74;
         }
+        .line-button {
+            display: block;
+            text-align: center;
+            background-color: #06C755;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            transition: background 0.3s;
+        }
+        .line-button:hover {
+            background-color: #05b34c;
+        }
+        .quote-box {
+            background-color: #faf6f0;
+            padding: 15px;
+            border-left: 4px solid #c06c84;
+            margin-top: 15px;
+            font-size: 13.5px;
+            border-radius: 0 6px 6px 0;
+        }
     </style>
 </head>
 <body>
@@ -183,9 +207,18 @@
             </section>
 
             <section>
+                <h2>鑑定士プロフィール</h2>
+                <p>19年間にわたり、アフリカ起源の伝統宗教やサン・シプリアーノの魔術をはじめとするオカルトロジー（神秘学）の研究と実践を重ね、独自の霊的施術とカウンセリングを行ってまいりました。私の使命は、皆様が霊的な障壁から解放され、より輝かしく豊かな人生へと歩み出すサポートをすることです。皆様の笑顔や人生の好転を見ることが、私にとって最大の喜びです。</p>
+                <div class="quote-box">
+                    <strong>【皆様への大切なメッセージ】</strong><br>
+                    私は神ではないため、奇跡を起こすことはできません。しかし、人生における多くの苦しみや災いは、高次元の存在や霊体からの助言を受け、正しい魔術を施すことによって未然に防ぎ、乗り越えることができます。一人で抱え込まず、どうぞ安心してお話しください。
+                </div>
+            </section>
+
+            <section>
                 <h2>サービス内容 (提供メニュー)</h2>
                 <h3>金運・開運招福（ビジネスと財運の好転）</h3>
-                <p>エネルギーの滞りをクリアにし、新たなビジネスの好機や財を呼び込むための道を開きます。</p>
+                <p>エネルギー의滞りをクリアにし、新たなビジネスの好機や財を呼び込むための道を開きます。</p>
                 
                 <h3>良縁成就・恋愛成就（運命の引き寄せ）</h3>
                 <p>あなたの魂の波動を本来の美しい輝きへと整え、理想のパートナーや運命の出会いを引き寄せます。</p>
@@ -207,7 +240,7 @@
                 <h2>セッションの効果（得られること）</h2>
                 <ul>
                     <li><strong>心の重荷や不安の解消：</strong> 抱え込んできた魂の苦しみや迷いが消え去り、心が驚くほど軽くなります。</li>
-                    <li><strong>明確なビジョンと決断力：</strong> 高次元からのメッセージにより、進むべき未来의道がはっきりと見えてきます。</li>
+                    <li><strong>明確なビジョンと決断力：</strong> 高次元からのメッセージにより、進むべき未来への道がはっきりと見えてきます。</li>
                     <li><strong>精神的な平穏と守護：</strong> 負のエネルギーから守られ、内側から穏やかな安心感が満ちてきます。</li>
                     <li><strong>人生の疑問への直接的な答え：</strong> あなたが今一番知るべき真実と解決への糸口を、対話を通じて直接お伝えします。</li>
                 </ul>
@@ -274,8 +307,7 @@
                 </div>
 
                 <div class="faq-item">
-                    <div class="faq-question">料金の支払い方法を教えてください。</div>
-                    <p class="faq-answer">料金はセッション当日に、現金にてお支払いをお願いいたします。</p>
+                    <div class="faq-answer">料金はセッション当日に、現金にてお支払いをお願いいたします。</div>
                 </div>
 
                 <div class="faq-item">
@@ -291,7 +323,10 @@
 
             <section>
                 <h2>特別相談窓口 (お問い合わせ)</h2>
-                <p style="color: #8e8e8e; font-size: 12px; margin-bottom: 15px;">※必要事項をご記入の上、送信してください。折り返しご連絡いたします。</p>
+                
+                <a href="COLE_O_LINK_DO_SEU_LINE_AQUI" class="line-button" target="_blank">🟢 LINEで予約・お問い合わせ</a>
+
+                <p style="color: #8e8e8e; font-size: 12px; margin-bottom: 15px; text-align: left;">※または、下記のフォームに必要事項をご記入の上、送信してください。折り返しご連絡いたします。</p>
                 
                 <form action="https://formspree.io/f/mnjrbnnw" method="POST">
                     <div class="form-group">
@@ -301,7 +336,7 @@
 
                     <div class="form-group">
                         <label for="email">返信用連絡先（メールアドレスまたはLINE ID）</label>
-                        <input type="text" id="email" name="_replyto" required placeholder="例：example@email.com または LINE ID">
+                        <input type="text" id="email" name="_replyto" required placeholder="例：example@email.com 或者 LINE ID">
                     </div>
                     
                     <div class="form-group">
